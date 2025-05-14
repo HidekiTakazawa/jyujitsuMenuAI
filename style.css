@@ -158,9 +158,9 @@ footer {
     .app-showcase-item h2 {
         font-size: 1.3em;
     }
-    .slider-controls {
+    /* .slider-controls {
         display: none; /* PC用のNext/Backボタンを非表示 */
-    }
+     */
     .slider-image {
         max-height: 350px;
     }
