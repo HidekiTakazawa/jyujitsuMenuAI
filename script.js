@@ -12,10 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: "chinese-vocabulary-master", // 例: アプリ1のID
             name: "充実初級中国語",
-            description: "本文の載せられている短文の中国語をクリックすると中国語の発音を確認できます。",
+            description: "各課の語句、本文、文法説明が各ページに掲載されており、それぞれ音声の確認ができます。読み上げるスピードは調整可能です。",
             images: [
-                { src: "images/honbun.jpg", caption: "初期表示画面：最初の学習内容が表示されます。" },
-                { src: "images/honbunSelect.jpg", caption: "選択画面：学習する内容を選択します。" },
+                { src: "images/honbunIni.jpg", caption: "初期表示画面：最初の学習内容が表示されます。" },
+                { src: "images/honbunSelect.jpg", caption: "選択画面：「第1課の本文」を選択します。" },
+                { src: "images/honbunDai1ka.jpg", caption: "「第1課の本文」の学習内容が表示されます。" },
                 // { src: "images/app1_screen3.png", caption: "テスト結果：間違えた単語を復習できます。" }
             ],
             appUrl: "https://script.google.com/macros/s/AKfycbwCL3tny-JoGZehVtlIoO5bAdv5MVrEG88dCRBJmFTwp5cPgYwnhXRgssoVwQmY6f0/exec" // あなたのアプリ1への実際のURLに置き換えてください
@@ -24,14 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
             id: "pinyin-trainer", // 例: アプリ2のID
             name: "単語カード",
             
-            description: "HSK1級から3級までの必須単語を効率的に学習できるアプリです。本文に出てきた単語の一覧を表示できます。単語を記憶するためのフラッシュカード機能もあります。",
+            description: "「日本語」ー＞「中国語・ピンイン」の順に、単語カード形式で新出語句が次々と表示され、同時に音声の確認ができます。検索欄で単語を検索することも可能です。「ピンイン入力」にチェックを入れると、ピンインで中国語を入力する問題形式になります。",
             images: [
                 { src: "images/tangoSyoki.jpg", caption: "初期画面　下一个をクリックすれば問題が表示されます。" },
                 { src: "images/tangoJpHyouji.jpg", caption: "日本語が表示されます。　下一个をクリックすれば日本語に対応する中国語が表示されます。" },
                 { src: "images/tangoChina.jpg", caption: "中国語が表示されると同時に中国語の音声が流れます。" },
-                { src: "images/tangoKensaku1.jpg", caption: "検索欄に検索文字を入力すると検索文字を含む単語が一覧表示されます。allと入力すれば、単語をすべて表示します。" },
-                { src: "images/tangoKensaku2.jpg", caption: "検索欄にallと入れたので全件表示します。中国語欄をクリックすると中国語音声が流れます。" },
-                { src: "images/tangoPinyin1.jpg", caption: "ピンイン入力をクリックするとピンイン入力モードになります。ピンイン入力欄が現れます。" },
+                { src: "images/tangoKensaku1.jpg", caption: "検索欄に検索文字を入力すると検索文字を含む単語が一覧表示されます。" },
+                { src: "images/tangoKensaku2.jpg", caption: "検索欄にallと入力することで、全件表示します。中国語欄をクリックすると中国語音声が流れます。" },
+                { src: "images/tangoPinyin1.jpg", caption: "ピンイン入力にチェックを入れるとピンイン入力モードになります。ピンイン入力欄が現れます。" },
                 { src: "images/tangoPinyin2.jpg", caption: "ピンイン入力されたものが正しいかチェックします。" },
             ],
             appUrl: "https://tamagenai.github.io/chongshichujich/" // あなたのアプリ2への実際のURLに置き換えてください
@@ -39,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: "sentence-builder", // 例: アプリ3のID
             name: "練習問題（クイズ形式）",
-            description: "ゲーム感覚で中国語の練習問題に挑戦できます。練習問題を解くことにより、教科書で学んだことを復習し、知識を確かなものにしましょう。中国語の音声もしっかり確認できます。",
+            description: "教科書の練習問題に、ゲーム感覚で手軽に挑戦することができます。教科書に回答を書き込んだ後も復習が可能で、問題を解きながら楽しく語彙や文法を習得できます。",
             images: [
                 { src: "images/rensyuSyoki.jpg", caption: "初期画面 最初の問題が表示されています。" },
-                { src: "images/rensyuKaitou1.jpg", caption: "妈のピンインを一声と回答した。" },
-                { src: "images/rensyuCheck1.jpg", caption: "回答が正しかったので褒められた。" },
-                { src: "images/rensyuKaitou2.jpg", caption: "妈のピンインを二声と回答した。" },
-                { src: "images/rensyuCheck2.jpg", caption: "回答が間違ったので怒られた。" },
+                { src: "images/rensyuKaitou1.jpg", caption: "例えば'妈'を第一声だと選択すると..." },
+                { src: "images/rensyuCheck1.jpg", caption: "解答が正しい場合は、「いいね！」というコメント付きで褒められます。" },
+                { src: "images/rensyuKaitou2.jpg", caption: "'妈'を第二声だと選択すると..." },
+                { src: "images/rensyuCheck2.jpg", caption: "解答が正しくない場合は、「もっと頑張りましょう！！」と表示されます。" },
             ],
             appUrl: "https://script.google.com/macros/s/AKfycbxQOJBbCYyMBo-OEhGvo8w8-bA3zkGCK1SxEpFU-N2PsQDXZunVgxyOar-0fv_MaDo/exec" // あなたのアプリ3への実際のURLに置き換えてください
         },
