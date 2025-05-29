@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: "sentence-builder", // 例: アプリ3のID
             name: "練習問題（クイズ形式）",
-            description: "教科書の練習問題に、ゲーム感覚で手軽に挑戦することができます。教科書に回答を書き込んだ後も復習が可能で、問題を解きながら楽しく語彙や文法を習得できます。",
+            description: "教科書の練習問題に、ゲーム感覚で手軽に挑戦することができます。教科書に解答を書き込んだ後も復習が可能で、問題を解きながら楽しく語彙や文法を習得できます。",
             images: [
                 { src: "images/rensyuSyoki.jpg", caption: "初期画面 最初の問題が表示されています。" },
                 { src: "images/rensyuKaitou1.jpg", caption: "例えば'妈'を第一声だと選択すると..." },
