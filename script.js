@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "充実初級中国語",
             description: "各課の語句、本文、文法説明が各ページに掲載されており、それぞれ音声の確認ができます。読み上げるスピードは調整可能です。",
             images: [
-                { src: "images/honbunIni.jpg", caption: "初期表示画面：最初の学習内容が表示されます。" },
+                // { src: "images/honbunIni.jpg", caption: "初期表示画面：最初の学習内容が表示されます。" },
                 { src: "images/honbunSelect.jpg", caption: "選択画面：「第1課の本文」を選択します。" },
                 { src: "images/honbunDai1ka.jpg", caption: "「第1課の本文」の学習内容が表示されます。" },
                 // { src: "images/app1_screen3.png", caption: "テスト結果：間違えた単語を復習できます。" }
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { src: "images/rensyuSyoki.jpg", caption: "初期画面 最初の問題が表示されています。" },
                 { src: "images/rensyuKaitou1.jpg", caption: "例えば'妈'を第一声だと選択すると..." },
                 { src: "images/rensyuCheck1.jpg", caption: "解答が正しい場合は、「いいね！」というコメント付きで褒められます。" },
-                { src: "images/rensyuKaitou2.jpg", caption: "'妈'を第二声だと選択すると..." },
+                { src: "images/rensyuKaitou2.jpg", caption: "例えば'妈'を第二声だと選択すると..." },
                 { src: "images/rensyuCheck2.jpg", caption: "解答が正しくない場合は、「もっと頑張りましょう！！」と表示されます。" },
             ],
             appUrl: "https://script.google.com/macros/s/AKfycbxQOJBbCYyMBo-OEhGvo8w8-bA3zkGCK1SxEpFU-N2PsQDXZunVgxyOar-0fv_MaDo/exec" // あなたのアプリ3への実際のURLに置き換えてください
