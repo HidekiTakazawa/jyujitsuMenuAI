@@ -89,6 +89,22 @@ main {
     color: #555;
     min-height: 1.2em;
     padding: 0 0.5rem;
+   
+}
+/* あなたのCSSファイル または <style> タグ内に追記 */
+.image-caption .highlight {
+  /* 例: 文字色を赤、太字にする */
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+
+  /* 例: 高さを指定したい場合（displayの変更が必要なことが多い） */
+  /* height: 20px; */
+  /* display: inline-block; */ /* heightを有効にするためによく使われます */
+
+  /* 必要に応じて他のスタイル */
+  /* background-color: yellow; */
+  /* padding: 0 2px; */
 }
 
 .slider-controls {

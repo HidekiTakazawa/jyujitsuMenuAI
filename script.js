@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
             description: "教科書の練習問題に、ゲーム感覚で手軽に挑戦することができます。教科書に解答を書き込んだ後も復習が可能で、問題を解きながら楽しく語彙や文法を習得できます。",
             images: [
                 { src: "images/rensyuSyoki.jpg", caption: "初期画面 最初の問題が表示されています。" },
-                { src: "images/rensyuKaitou1.jpg", caption: "例えば'妈'を第一声だと選択すると..." },
+                { src: "images/rensyuKaitou1.jpg", caption: '例えば<span class="highlight">妈</span>を第一声だと選択すると...' },
+
                 { src: "images/rensyuCheck1.jpg", caption: "解答が正しい場合は、「いいね！」というコメント付きで褒められます。" },
                 { src: "images/rensyuKaitou2.jpg", caption: "例えば'妈'を第二声だと選択すると..." },
                 { src: "images/rensyuCheck2.jpg", caption: "解答が正しくない場合は、「もっと頑張りましょう！！」と表示されます。" },
@@ -162,8 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const currentImage = appData.images[currentImageIndex];
             imageElement.src = currentImage.src;
             imageElement.alt = currentImage.caption || `${appData.name} screen ${currentImageIndex + 1}`;
-            captionElement.textContent = currentImage.caption || '';
-
+            // captionElement.textContent = currentImage.caption || '';
+            captionElement.innerHTML = currentImage.caption || '';
             prevButton.disabled = currentImageIndex === 0;
             nextButton.disabled = currentImageIndex === appData.images.length - 1;
         }
